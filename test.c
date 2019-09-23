@@ -10,7 +10,9 @@ int main()
   for (c = 1; c <= 5; c++)
   {
     for(k = 1; k <= c; k++)
+    {
       printf("*");
+    }
  
     printf("\n");
   }
